@@ -1,0 +1,205 @@
+{% extends 'base.html' %}
+    {% block title %}Home{% endblock title %} 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap" rel="stylesheet">
+   <!-- <title> Responsive Drop Down Navigation Menu | CodingLab </title>-->
+   <link rel="stylesheet" href="/static/style.css?{% now "U" %}"/>
+   <link rel="stylesheet" href="/static/slotcheck.css?{% now "U" %}"/>
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+
+{% block body %}<body>
+
+               
+<div class="slider">
+      <div class="slide">
+        <img src="/static/img3.jpg" />
+        <div class="caption">Vaccination saves lives at every stage of life</div>
+      </div>
+      <div class="slide">
+        <img src="/static/img5.jpg" />
+        <div class="caption">Get Vaccinated</div>
+      </div>
+      <div class="slide">
+        <img src="/static/mask.jpg" />
+        <div class="caption">Wear Mask</div>
+      </div>
+  <div class="slide">
+        <img src="/static/distancing.jpg" />
+        <div class="caption">Follow Social-Distancing</div>
+      </div>
+  
+
+      <!-- buttons -->
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+    </div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot2" onclick="currentSlide(1)"></span> 
+  <span class="dot2" onclick="currentSlide(2)"></span> 
+  <span class="dot2" onclick="currentSlide(3)"></span> 
+   <span class="dot2" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+    
+    
+   <br>
+   <section class = "howto" id = "div1">
+   <div><center>
+   <h1 style="color:#663399;"><b>How To Get Your Vaccination<b></h1>
+   </center>
+   </div>
+  <br>
+  <main class="page-content">
+  <div class="card2">
+    <div class="content">
+      <h2 class="title">Book An Appointment</h2>
+      <p class="copy">Book An Appointment On Coivd Vaccine or Walk Into Any Vaccination Cente</p>
+       <button class="btn" a href="#" onclick="alert('This feature currently not available')">HOW TO BOOK YOUR APPOINTMENT</button>
+    </div>
+  </div>
+  <div class="card2">
+    <div class="content">
+      <h2 class="title">Get Your Vaccination</h2>
+      <p class="copy">Get Your Vaccination Safely at the Time of Your Appointment</p>
+      <button class="btn" id="dos"><a href="/static/pdf1.pdf" target="_blank">DOS AND DONT'S FOR GETTING VACCINATED</a></button>
+    </div>
+  </div>
+  <div class="card2">
+    <div class="content">
+      <h2 class="title">Download Your Certificate</h2>
+      <p class="copy">Download Your Vaccination Certificate from CoWIN and Wait for Dose #2</p>
+      <button class="btn" a href="#" onclick="alert('This feature currently not available')">Download Certificate</button>
+    </div>
+  </div>
+  
+</main>
+<br><br>
+<section class = "contactdetails" id = "contactdiv">
+    <div class="borderexample">
+    <div class="text-center"> <h1 style="color:#663399;"><b>Contact us</b></h1> </div>
+      
+       <a href=""> <p>Helpline: +91 11 23978046 (Toll Free - 1075 )</p> </a>
+       
+
+       <a href=""><p> Technical Helpline: 0120 4473222</p></a>
+        
+       
+        
+    
+  </div>
+  </section>
+  <br>
+  <section class="container-fluid" id = "freq">
+
+  <div class="row">
+    <div class="col-10 offset-1">
+    <center>
+      <h1 style="color:#663399;"><b>Frequently Asked Questions</b></h1>
+      </center>
+      <br>
+        <details>
+          <summary>What is  vaccination?</summary>
+          <p>Vaccination is a simple, safe, and effective way of protecting you against harmful diseases, before you come into contact with them. It uses your body’s natural defenses to build resistance to specific infections and makes your immune system stronger. <br><br>
+
+Vaccines train your immune system to create antibodies, just as it does when it’s exposed to a disease. However, because vaccines contain only killed or weakened forms of germs like viruses or bacteria, they do not cause the disease or put you at risk of its complications.</p>
+        </details>
+        <details>
+          <summary>How does a vaccine work?</summary>
+          <p>Vaccines reduce risks of getting a disease by working with your body’s natural defenses to build protection. When you get a vaccine, your immune system responds. It:</p>
+          <ul>
+          <li>Recognizes the invading germ, such as the virus or bacteria.</li>
+          <li>Produces antibodies. Antibodies are proteins produced naturally by the immune system to fight disease.</li>
+          <li>Remembers the disease and how to fight it. If you are then exposed to the germ in the future, your immune system can quickly destroy it before you become unwell.</li>
+          </ul>
+          <p>The vaccine is therefore a safe and clever way to produce an immune response in the body, without causing illness.
+
+Our immune systems are designed to remember. Once exposed to one or more doses of a vaccine, we typically remain protected against a disease for years, decades or even a lifetime. This is what makes vaccines so effective. Rather than treating a disease after it occurs, vaccines prevent us in the first instance from getting sick.</p>
+        </details>
+        <details>
+          <summary>When should I get vaccinated(or vaccinate my child)?</summary>
+          <p>
+Vaccines protect us throughout life and at different ages, from birth to childhood, as teenagers and into old age. In most countries you will be given a vaccination card that tells you what vaccines you or your child have had and when the next vaccines or booster doses are due. It is important to make sure that all these vaccines are up to date. <br><br>
+
+If we delay vaccination, we are at risk of getting seriously sick. If we wait until we think we may be exposed to a serious illness – like during a disease outbreak – there may not be enough time for the vaccine to work and to receive all the recommended doses. <br><br>
+
+If you have missed any recommended vaccinations for you or your child, talk to your healthcare worker about catching up.</p>
+        </details>
+        <details>
+          <summary>Why should I get vaccinated?</summary>
+          <p>Without vaccines, we are at risk of serious illness and disability from diseases like measles, meningitis, pneumonia, tetanus and polio. Many of these diseases can be life-threatening. WHO estimates that childhood vaccines alone save over 4 million lives every year. <br><br> Although some diseases may have become uncommon, the germs that cause them continue to circulate in some or all parts of the world. In today’s world, infectious diseases can easily cross borders, and infect anyone who is not protected <br><br>
+
+Two key reasons to get vaccinated are to protect ourselves and to protect those around us. Because not everyone can be vaccinated – including very young babies, those who are seriously ill or have certain allergies – they depend on others being vaccinated to ensure they are also safe from vaccine-preventable diseases.</p>
+        </details>
+        <details>
+          <summary>Are there side effects from vaccines?</summary>
+          <p>Like any medicine, vaccines can cause mild side effects, such as a low-grade fever, or pain or redness at the injection site. Mild reactions go away within a few days on their own.
+
+<br>
+<br> Severe or long-lasting side effects are extremely rare. Vaccines are continually monitored for safety, to detect rare adverse events.</p>
+        </details>
+        <details>
+          <summary>Can a child be given more than one vaccine at a time?</summary>
+          <p>Scientific evidence shows that giving several vaccines at the same time has no negative effect. Children are exposed to several hundred foreign substances that trigger an immune response every day. The simple act of eating food introduces new germs into the body, and numerous bacteria live in the mouth and nose.
+
+<br><br> When a combined vaccination is possible (e.g. for diphtheria, pertussis and tetanus), this means fewer injections and reduces discomfort for the child. It also means that your child is getting the right vaccine at the right time, to avoid the risk of contracting a potentially deadly disease.</p>
+        </details>
+         <details>
+          <summary>Is there a link between vaccine and autism?</summary>
+          <p>There is <a style="color: hsl(240, 100%, 50%);">no evidence </a>of any link between vaccines and autism or autistic disorders. This has been demonstrated in many studies, conducted across very large populations.
+
+<br><br> The 1998 study which raised concerns about a possible link between measles-mumps-rubella (MMR) vaccine and autism was later found to be seriously flawed and fraudulent. The paper was subsequently retracted by the journal that published it, and the doctor that published it lost his medical license. Unfortunately, its publication created fear that led to dropping immunization rates in some countries, and subsequent outbreaks of these diseases.
+
+<br><br> We must all ensure we are taking steps to share only credible, scientific information on vaccines, and the diseases they prevent.</p>
+        </details>
+        <details>
+          <summary>I still have questions about vaccination. What should I do?</summary>
+          <p>If you have questions about vaccines be sure to talk to your healthcare worker. He or she can provide you with science-based advice about vaccination for you and your family, including the recommended vaccination schedule in your country.
+
+<br><br> When looking online for information about vaccines, be sure to consult only trustworthy sources. To help you find them, WHO has reviewed and ‘certified’ many websites across the world that provide only information based on reliable scientific evidence and independent reviews by leading technical experts. These websites are all members of the <a style="color: hsl(240, 100%, 50%);">Vaccine Safety Net</a>.</p>
+        </details>
+    </div>
+  </div>
+  
+
+<br><br><br>
+<div class="borderexample">
+<a1><b>We want to make COVID-19 vaccination easy and<br>
+ accessible to everyone.</b></a1>
+<br>
+
+<div class="text3-center">
+<h3>COVID-19 vaccines are free and available to anyone who wants one. We work with partners such as
+clinics, pharmacies and health departments to provide accurate and up-to-date information  
+about vaccination services in your area.</h3>
+<br>
+ </div>
+
+ </div>
+ <br><br>
+ <div class="center" >
+ 
+ <h1><b>Why It’s Important to Get the Covid-19 Vaccine<b></h1></div>
+ <br><br> 
+ <center>
+<iframe width="50%" height="400" src="https://www.youtube.com/embed/tKV8zHIEdoU">
+</iframe></center>
+ <br><br>
+
+
+</body>{% endblock body %}
+
+

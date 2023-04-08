@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block title%}Slotbooking{% endblock title%}
+{%block body%}
+
+<body>
+<div class="container7">
+<div class="container-time">
+<h2 class="heading">Time Open</h2>
+<h3 class="heading-days">Monday-Friday</h3>
+<p> <a href="">7am - 11am</a></p>
+<p> <a href="">11am - 10pm</a> </p>
+
+<h3 class="heading-days">Saturday and sunday</h3>
+<p> <a href="">9am - 1am</a>  </p>
+<p> <a href="">1am - 10pm</a> </p>
+
+<hr>
+
+<h4 class="heading-phone">Call Us: <a href="#">0120 4473222</a> </h4>
+</div>
+
+<div class="container-form">
+<form action="#">
+<h2 class="heading heading-yellow">Slot Booking</h2>
+
+<div class="form-field">
+<p>Your Name</p>
+<input type="text" placeholder="Your Name" name="Create User">
+</div>
+<div class="form-field">
+<p>Your email</p>
+<input type="email" placeholder="Your email">
+</div>
+<div class="form-field">
+<p>Date</p>
+<input type="date">
+</div>
+<div class="form-field">
+<p>Time</p>
+<input type="time">
+</div>
+<div class="form-field">
+<p>How many people?</p>
+<select name="select" id="#">
+<option value="1">1 person</option>
+<option value="2">2 persons</option>
+<option value="3">3 persosn</option>
+<option value="4">4 persons</option>
+<option value="5">5 persons</option>
+<option value="5+">5+ persons</option>
+</select>
+</div>
+
+<button class="btnbook">Submit</button>
+</form>
+</div>
+</div>
+
+<br><br><br>
+
+  
+</body>
+<br><br>
+{% endblock body %}
